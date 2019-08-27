@@ -1,0 +1,21 @@
+#body {
+    width: 90vw;
+    height: 160vh;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 4px 2px black;
+}
+img{
+    float: right;
+}
+h1{
+    text-align: center;
+    color: dimgray;
+}
+img:hover{
+    height: 400px;
+    width: 400px;
+    transition-duration: 3s;
+}
