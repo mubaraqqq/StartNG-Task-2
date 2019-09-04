@@ -1,6 +1,6 @@
 #body {
     width: 75vw;
-    height: 160vh;
+    height: auto;
     border: 2px solid black;
     display: block;
     margin: auto;
@@ -46,4 +46,57 @@ h2{
     bottom: -70px;
     background-color: black;
     border-radius: 50%;
+}
+nav{
+    text-align: right;;
+}
+nav>ul>li{
+    display: inline;
+    margin: 5px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    background-color: slategrey;
+    padding: 1em 1.3em;
+    border-radius: 7px;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+a:active{
+    color: white;
+    background-color: black;
+}
+form{
+    text-align: center;
+}
+#formname, #formemail, #formtitle{
+    width: 20vw;
+    height: 30px;
+    border-radius: 4px;
+    padding: 1em 1.3em;
+    border: 2px solid black;
+
+}
+#formmessage{
+    height: 90px;
+    width: 20vw;
+    border-radius: 4px;
+    padding: 1em 1.3em;
+    border: 2px solid black
+}
+#formsubmit{
+    width: 80px;
+    height: 40px;
+    border: 2px solid grey;
+    cursor: pointer;
+    border-radius: 7px;
+}
+#formsubmit:hover{
+    background-color: grey;
+    color: black;
 }
